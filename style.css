@@ -8,6 +8,7 @@
     color: white;
     width: 100vw;
     height: 10vh;
+    position: fixed;
 }
 .item{
     display: flex;
@@ -26,7 +27,7 @@ li{
 }
 .name{
     font-size:x-large;
-   margin-top: 2vh;
+   margin-top: 2.88vh;
 }
 .button1{
     margin-top: 1.5vh;
@@ -39,6 +40,8 @@ li{
 
 .heroimg{
     height: 90vh;
+    z-index: -1;
+    margin-top: 10vh;
 }
 .wave{
     width: 3vw;
@@ -56,6 +59,7 @@ li{
     border-radius: 12px;
     margin-top: -50vh;
     margin-left: 45vw;
+    z-index: -1;
 }
 .heroM2{
     display: flex;
@@ -67,6 +71,7 @@ li{
     border-radius: 12px;
     margin-top: 5vh;
     margin-left: 45vw;
+    z-index: -1;
 }
 h1{
     margin-left: 2vw;
